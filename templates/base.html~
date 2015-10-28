@@ -1,0 +1,27 @@
+$def with (content)
+
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="all,follow" />
+    <title>Kariyer</title>
+    <script type="text/javascript" src="/static/js/jquery-2.1.3.js"></script>
+
+    <!-- <script type="text/javascript" src="/static/js/jquery-latest.js"></script> -->
+    <script src="/static/js/highcharts/highcharts.js"></script>
+    <script src="/static/js/highcharts/highcharts-more.js"></script>
+    <script src="/static/js/highcharts/modules/exporting.js"></script>
+</head>
+
+<body>
+ <ul>
+  <li><a href="chart1">Sektörel Dağılım</a></li>
+  <li><a href="chart2">Ilk 10 Sektör</a></li>
+  <li><a href="chart3">Departmana Göre Dağılım</a></li>
+  <li><a href="chart4">Illere Göre Dağılım</a></li>
+ </ul>
+  $:content
+</body>
+</html>

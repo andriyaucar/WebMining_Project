@@ -1,0 +1,4 @@
+
+<div id="chart3" style="min-width: 310px; max-width: 800px; height: 800px; margin: 0 auto"></div>
+<script src="/static/chart3.js">    
+</script>
